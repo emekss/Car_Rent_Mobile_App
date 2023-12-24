@@ -1,4 +1,6 @@
 import 'package:carrentmobileapp/pages/home_page.dart';
+import 'package:carrentmobileapp/pages/sign_in_page.dart';
+import 'package:carrentmobileapp/pages/splash/body.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SignInPage(),
     );
   }
 }
