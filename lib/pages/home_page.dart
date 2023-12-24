@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-      child: Image.asset('assets/images/carlogo.webp'),
+      child: Image.asset('assets/images/rentlogo.jpeg'),
     ));
   }
 }
