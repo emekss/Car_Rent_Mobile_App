@@ -81,19 +81,22 @@ class _BodyState extends State<Body> {
                       ),
                     ),
                     const Spacer(),
-                    Container(
-                      decoration: BoxDecoration(
-                          color: Colors.black,
-                          borderRadius: BorderRadius.circular(12)),
-                      height: 60,
-                      width: 250,
-                      child: const Center(
-                        child: Text(
-                          'Continue',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 30,
-                              fontWeight: FontWeight.bold),
+                    Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Colors.black,
+                            borderRadius: BorderRadius.circular(12)),
+                        height: 60,
+                        width: 250,
+                        child: const Center(
+                          child: Text(
+                            'Continue',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 25,
+                                fontWeight: FontWeight.w600),
+                          ),
                         ),
                       ),
                     )
