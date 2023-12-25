@@ -10,19 +10,19 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		JPXPF4sWI31sWVMOSbUlB3WSzx8=
+		sbavrn0XU7KU2S62kl2hvMeAtHE=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		HKbPFW00UEw1uNWWUi6umUwknL8=
+		OGXycuJbSjnm9efh1rY7SChCWJA=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		vKJkVIcw+LGHFnKJGwrQwCREv68=
+		HuqT/dgvrTHOMum5Qo5BXfxzfaM=
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		RIAilnlOaIQ4G5me//hYHoX0dxY=
+		aptppckyPgAPfKEWCMw8p+DIhgk=
 		</data>
 		<key>flutter_assets/assets/images/accord.png</key>
 		<data>
@@ -58,11 +58,23 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		pOtFnDDRMvcNz62k//06csxTMs0=
+		B2AAYZaqkpvDggyrVoWHPjUzO+8=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		P7bb/oR3EhwqCIH1M6LyTuBIWYU=
+		</data>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
+		<data>
+		uUtYhUJxJH+lEL1ch7dyMO5YVIc=
+		</data>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf</key>
+		<data>
+		2qlhM5dzNTx2SaPhAbWCrCSS1z8=
+		</data>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf</key>
+		<data>
+		e0kg5q9IIhoUqIIb2xKRlVFJN/w=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -79,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7fcy4PH0BUu+rWZps66NDOu7wZJ+5P9IpRj4+W/eh3I=
+			i2khr6uLfHLmPM54mjbYOpDkRyGH91H57ERSC1I/BwA=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vkhs9ed3SQUvB1j1sB/JG0Jeq+Z/MMYiv4u5XgVx+KA=
+			sP2Hxbveuq+OIAPm55xPPKxtomLwSlWIkP5KTL9eWes=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zX4DZFvESy3Ue3y2JvUcTsv1Whl6t3JBYotHrBZfviE=
+			LNlBG1QOXG4VrGVSOjYBvuZorsqRBOHeE2/DSzqRJ3E=
 			</data>
 		</dict>
 		<key>flutter_assets/NOTICES.Z</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C4szPdS0AD7JLMyAxOIXKRO6ASL7TphOPzbz+/rCD8o=
+			/2KAHfvJ0RbdfwgdMLnCxuWlhxI183hKFcdBVsnVlEM=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/accord.png</key>
@@ -163,7 +175,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ChJtr2wVgwFcX0ZP5awbjMArMfKm7FrCyTHQIkLvi1I=
+			uSw3mSxlEmxz/Tk/Vd5BoVua65NMeutVkG4oDFZsITU=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -171,6 +183,27 @@
 			<key>hash2</key>
 			<data>
 			x6NX+tjyECiQtyzbbjyY8U2zoZ7GDbJtE+T+k/dzgI0=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PIAy9P/E9pg+JtVzzRnYHKVS0ZL8GHInLKq+369QLBw=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q4IDU/32RXM02bHzZ+jrgy9fvDwy1N4NL1JtQB5o0uc=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w2pgOtOQJdCgxy1Iyym6iWSGXbIRYPXC4sxmlO0LoTA=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
