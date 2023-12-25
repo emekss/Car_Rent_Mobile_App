@@ -1,4 +1,4 @@
-import 'package:carrentmobileapp/pages/home_page.dart';
+import 'package:carrentmobileapp/pages/homepage/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
