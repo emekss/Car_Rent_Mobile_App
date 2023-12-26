@@ -18,7 +18,7 @@ class HomePageSplashContent extends StatelessWidget {
           child: Image.asset(
             image!,
             height: 225,
-            width: 300,
+            width: double.infinity,
           ),
         ),
         const SizedBox(height: 20),

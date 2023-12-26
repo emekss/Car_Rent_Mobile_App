@@ -13,15 +13,15 @@ class _HomePageSplashScreenState extends State<HomePageSplashScreen> {
   List<Map<String, String>> splashData = [
     {
       "text": "Boxing Day 15% off Promo",
-      "image": "assets/images/accordh1.jpeg"
+      "image": "assets/images/gwagon.avif",
     },
     {
       "text": "Merry Christmas 25% off Promo",
-      "image": "assets/images/accordh2.webp"
+      "image": "assets/images/gwagon2.avif"
     },
     {
       "text": "New Year 2024 50% off Promo",
-      "image": "assets/images/accordh3.webp"
+      "image": "assets/images/gwagon4.jpeg"
     },
   ];
 

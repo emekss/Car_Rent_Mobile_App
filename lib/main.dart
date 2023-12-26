@@ -1,4 +1,7 @@
 import 'package:carrentmobileapp/pages/homepage/home_page.dart';
+import 'package:carrentmobileapp/pages/logo_page.dart';
+import 'package:carrentmobileapp/pages/sign_in_page.dart';
+import 'package:carrentmobileapp/pages/splash/body.dart';
 import 'package:flutter/material.dart';
 
 void main() {
