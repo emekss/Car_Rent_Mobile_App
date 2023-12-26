@@ -1,3 +1,4 @@
+import 'package:carrentmobileapp/pages/homepage/home_page.dart';
 import 'package:carrentmobileapp/pages/splash/splash_content.dart';
 import 'package:flutter/material.dart';
 
@@ -83,19 +84,24 @@ class _BodyState extends State<Body> {
                     const Spacer(),
                     Padding(
                       padding: const EdgeInsets.all(20.0),
-                      child: Container(
-                        decoration: BoxDecoration(
-                            color: Colors.black,
-                            borderRadius: BorderRadius.circular(12)),
-                        height: 60,
-                        width: 250,
-                        child: const Center(
-                          child: Text(
-                            'Continue',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 25,
-                                fontWeight: FontWeight.w600),
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.pushNamed(context, '/homepage');
+                        },
+                        child: Container(
+                          decoration: BoxDecoration(
+                              color: Colors.black,
+                              borderRadius: BorderRadius.circular(12)),
+                          height: 60,
+                          width: 250,
+                          child: const Center(
+                            child: Text(
+                              'Continue',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 25,
+                                  fontWeight: FontWeight.w600),
+                            ),
                           ),
                         ),
                       ),

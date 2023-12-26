@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 
 class CarTile extends StatelessWidget {
-  const CarTile({super.key});
+  final String name;
+  final String image;
+  final String price;
+  const CarTile(
+      {super.key,
+      required this.name,
+      required this.image,
+      required this.price});
 
   @override
   Widget build(BuildContext context) {
@@ -12,15 +19,15 @@ class CarTile extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Image.asset(
-              'assets/images/gwagon7.avif',
+              image,
               height: 250,
               width: 250,
             ),
-            const Text(
-              'Mercedes G wagon G63 -2023',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            Text(
+              name,
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             const Row(
               children: [
                 Icon(
@@ -34,9 +41,10 @@ class CarTile extends StatelessWidget {
                 )
               ],
             ),
-            SizedBox(height: 10),
-            const Text('£15.00 / day',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold))
+            const SizedBox(height: 10),
+            Text(price,
+                style:
+                    const TextStyle(fontSize: 18, fontWeight: FontWeight.bold))
           ],
         ),
       ),

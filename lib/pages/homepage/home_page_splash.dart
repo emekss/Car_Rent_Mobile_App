@@ -84,7 +84,30 @@ class _HomePageSplashScreenState extends State<HomePageSplashScreen> {
         const SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(
-            children: [CarTile(), CarTile(), CarTile(), CarTile(), CarTile()],
+            children: [
+              CarTile(
+                name: 'Mercedes G wagon G63 -2023',
+                image: 'assets/images/gwagon8.jpeg',
+                price: '£25.00 / day',
+              ),
+              CarTile(
+                  name: 'Mercedes G wagon G55 -2022',
+                  image: 'assets/images/gwagon.avif',
+                  price: '£15.00 / day'),
+              CarTile(
+                name: 'Mercedes G wagon G6 -2020',
+                image: 'assets/images/gwagon4.jpeg',
+                price: '£30.00 / day',
+              ),
+              CarTile(
+                  name: 'Mercedes G wagon G65 -2023',
+                  image: 'assets/images/gwagon2.avif',
+                  price: '£50.00 / day'),
+              CarTile(
+                  name: 'Mercedes G wagon G63 -2019',
+                  image: 'assets/images/gwagon.avif',
+                  price: '£75.00 / day')
+            ],
           ),
         ),
       ]),

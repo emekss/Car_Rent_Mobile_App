@@ -27,7 +27,7 @@ class HomePageSplashContent extends StatelessWidget {
         Text(
           text!,
           style: const TextStyle(
-              fontSize: 20, color: Colors.black, fontWeight: FontWeight.bold),
+              fontSize: 20, color: Colors.red, fontWeight: FontWeight.bold),
           textAlign: TextAlign.left,
         ),
       ],

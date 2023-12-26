@@ -7,7 +7,14 @@ class LogoPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-      child: Image.asset('assets/images/rentlogo.jpeg'),
+      child: GestureDetector(
+        onTap: () {
+          Navigator.pushNamed(context, '/body');
+        },
+        child: Image.asset(
+          'assets/images/logo3.jpeg',
+        ),
+      ),
     ));
   }
 }

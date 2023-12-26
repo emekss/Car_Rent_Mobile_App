@@ -1,3 +1,4 @@
+import 'package:carrentmobileapp/components/bottom_navbar.dart';
 import 'package:carrentmobileapp/components/car_tile.dart';
 import 'package:carrentmobileapp/pages/homepage/home_page_splash.dart';
 import 'package:flutter/material.dart';
@@ -47,6 +48,7 @@ class _HomePageState extends State<HomePage> {
           ],
         )),
       ),
+      bottomNavigationBar: CustomBottomNavBar(),
     );
   }
 }
