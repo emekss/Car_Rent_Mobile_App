@@ -13,12 +13,14 @@ class HomePageSplashContent extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Spacer(),
         Center(
-          child: Image.asset(
-            image!,
-            height: 225,
-            width: double.infinity,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(20),
+            child: Image.asset(
+              image!,
+              height: 225,
+              width: double.infinity,
+            ),
           ),
         ),
         const SizedBox(height: 20),

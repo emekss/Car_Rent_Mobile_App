@@ -1,3 +1,4 @@
+import 'package:carrentmobileapp/components/car_tile.dart';
 import 'package:carrentmobileapp/pages/homepage/home_page_splash.dart';
 import 'package:flutter/material.dart';
 
@@ -42,13 +43,7 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
             SizedBox(height: 30),
-            SizedBox(height: 550, child: HomePageSplashScreen()),
-            // Row(
-            //   children: [
-            //     Text('Top Vehicle'),
-            //     Text('View all'),
-            //   ],
-            // )
+            Expanded(child: HomePageSplashScreen()),
           ],
         )),
       ),

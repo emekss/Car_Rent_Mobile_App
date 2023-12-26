@@ -1,3 +1,4 @@
+import 'package:carrentmobileapp/components/car_tile.dart';
 import 'package:carrentmobileapp/pages/homepage/home_page_splash_content.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +32,6 @@ class _HomePageSplashScreenState extends State<HomePageSplashScreen> {
       width: double.infinity,
       child: Column(children: [
         Expanded(
-          flex: 3,
           child: PageView.builder(
             onPageChanged: (value) {
               setState(() {
@@ -45,10 +45,8 @@ class _HomePageSplashScreenState extends State<HomePageSplashScreen> {
             ),
           ),
         ),
-        Expanded(
-          flex: 3,
+        SizedBox(
           child: Column(children: [
-            const SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: List.generate(
@@ -68,6 +66,26 @@ class _HomePageSplashScreenState extends State<HomePageSplashScreen> {
               ),
             ),
           ]),
+        ),
+        const SizedBox(height: 30),
+        const Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(
+              'Top Vehicle',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+            Text(
+              'See all',
+              style: TextStyle(fontSize: 15),
+            ),
+          ],
+        ),
+        const SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: [CarTile(), CarTile(), CarTile(), CarTile(), CarTile()],
+          ),
         ),
       ]),
     );
