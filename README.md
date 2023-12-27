@@ -71,7 +71,7 @@ dependencies:
   flutter_bloc: ^7.0.0
   animated_splash_screen: ^2.0.0
   curved_navigation_bar: ^1.0.0
-  # Add any additional dependencies...
+  Add any additional dependencies...
 # Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests for any improvements or additional features.
