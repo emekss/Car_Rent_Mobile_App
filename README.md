@@ -29,7 +29,7 @@ https://github.com/emekss/Car_Rent_Mobile_App/assets/110977719/21868206-dfcd-402
 Clone the Repository:
 bash
 Copy code
-git clone https://github.com/your-username/car-rental-ui.git
+git clone https://github.com/emekss/car-rental-ui.git
 Navigate to the Project Directory:
 bash
 Copy code
